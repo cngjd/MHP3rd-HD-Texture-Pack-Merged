@@ -1,0 +1,4 @@
+# keep every file byte-exact (PNGs, and the CRLF inis PPSSPP reads)
+* -text
+*.png binary
+*.PNG binary
