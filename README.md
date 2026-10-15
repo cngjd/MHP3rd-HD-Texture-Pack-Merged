@@ -26,8 +26,12 @@ not have. They are applied in priority order, and for each texture hash (clut + 
 | 2 | Ellym57f – *MHP3rd HD Definitive Edition* (commit `8e334a7`, 2023-01-11) | `definitive/` |
 | 3 | StormieVN – *MHP3rd HD Remake* (commit `ca52133`, 2021-11-12, full-res version) | `stormie/` |
 | 4 | Ngeradak Gaming – MHP3rd HD texture packs (YouTube, 2020-09 → 2021-06) | `ngeradak/` |
+| 5 | Pixel Cover – *MHGU HD Pixel Pack 4.0* (Monster Hunter Generations Ultimate, 2025-05) | `mhgu/` |
 
 - Within the Ngeradak packs, the newest pack wins when two packs conflict.
+- MHGU reuses many P3rd low-rank armor textures. The `mhgu/` textures were matched by content to the
+  P3rd originals (dumped from the game) for armor pieces no other source covers. They keep the
+  colors of the HD Pixel Pack and the transparency of the P3rd original.
 - A master entry whose file is missing upstream is filled by a lower source when one has it. These
   lines carry the comment `# [<source>] file missing upstream`.
 - Entries are rewritten with comments when the master has the file under its hash name instead of
@@ -64,5 +68,8 @@ not have. They are applied in priority order, and for each texture hash (clut + 
   - Armor 1 and 2
   - Spesial Deviljho, Spesial Diablos, Volcano and Special Alatreon
   - the Jaggi and Aelucanth side packs, and the Monsters pack
+- **Pixel Cover** ([YouTube](https://www.youtube.com/channel/UCmVt_09lfzye3AjKd9E6pUg),
+  [HD Pixel Pack v4 video](https://www.youtube.com/watch?v=iacY54dZF8k)): *MHGU HD Pixel Pack 4.0* for
+  Monster Hunter Generations Ultimate. 13 HD low-rank armor textures (male and female) come from it.
 
 If you are one of the authors and want your work credited differently or removed, please open an issue.
