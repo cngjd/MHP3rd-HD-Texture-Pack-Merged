@@ -29,9 +29,10 @@ not have. They are applied in priority order, and for each texture hash (clut + 
 | 5 | Pixel Cover – *MHGU HD Pixel Pack 4.0* (Monster Hunter Generations Ultimate, 2025-05) | `mhgu/` |
 
 - Within the Ngeradak packs, the newest pack wins when two packs conflict.
-- MHGU reuses many P3rd low-rank armor textures. The `mhgu/` textures were matched by content to the
-  P3rd originals (dumped from the game) for armor pieces no other source covers. They keep the
-  colors of the HD Pixel Pack and the transparency of the P3rd original.
+- MHGU reuses many P3rd low-rank hunter and Felyne armor textures. The `mhgu/` textures were matched
+  by content to the P3rd originals (dumped from the game) for pieces no other source covers. They keep
+  the colors of the HD Pixel Pack and the transparency of the P3rd original. Where MHGU leaves a part
+  grey (tinted at runtime in MHGU), the colors of the P3rd original were put back.
 - A master entry whose file is missing upstream is filled by a lower source when one has it. These
   lines carry the comment `# [<source>] file missing upstream`.
 - Entries are rewritten with comments when the master has the file under its hash name instead of
@@ -70,6 +71,7 @@ not have. They are applied in priority order, and for each texture hash (clut + 
   - the Jaggi and Aelucanth side packs, and the Monsters pack
 - **Pixel Cover** ([YouTube](https://www.youtube.com/channel/UCmVt_09lfzye3AjKd9E6pUg),
   [HD Pixel Pack v4 video](https://www.youtube.com/watch?v=iacY54dZF8k)): *MHGU HD Pixel Pack 4.0* for
-  Monster Hunter Generations Ultimate. 13 HD low-rank armor textures (male and female) come from it.
+  Monster Hunter Generations Ultimate. 59 HD low-rank textures come from it: 34 hunter armor pieces
+  (mostly female sets) and 25 Felyne armor and weapon pieces.
 
 If you are one of the authors and want your work credited differently or removed, please open an issue.
