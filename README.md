@@ -16,23 +16,25 @@ and the game assets belong to Capcom. This repo only selects and merges their wo
 
 ## How the merge works
 
-The **HolographicWings pack is the master** and always wins. Other packs only fill what the master does
-not have. They are applied in priority order, and for each texture hash (clut + data, with
+The **HolographicWings pack is the master**. Other packs only fill what the master does not have,
+except the MHGU textures, which take precedence over everything. Sources are applied in priority
+order, and for each texture hash (clut + data, with
 `ignoreAddress = true`) the first source that really ships the file is used:
 
 | Priority | Source | Folder in this pack |
 |---|---|---|
-| 1 | HolographicWings – *Monster Hunter Portable 3rd HD Pack Enhanced* (state of 2026-10-14) | root (`armors/`, `maps/`, `ui/`, …) |
-| 2 | Ellym57f – *MHP3rd HD Definitive Edition* (commit `8e334a7`, 2023-01-11) | `definitive/` |
-| 3 | StormieVN – *MHP3rd HD Remake* (commit `ca52133`, 2021-11-12, full-res version) | `stormie/` |
-| 4 | Ngeradak Gaming – MHP3rd HD texture packs (YouTube, 2020-09 → 2021-06) | `ngeradak/` |
-| 5 | Pixel Cover – *MHGU HD Pixel Pack 4.0* (Monster Hunter Generations Ultimate, 2025-05) | `mhgu/` |
+| 1 | Pixel Cover – *MHGU HD Pixel Pack 4.0* (Monster Hunter Generations Ultimate, 2025-05) | `mhgu/` |
+| 2 | HolographicWings – *Monster Hunter Portable 3rd HD Pack Enhanced* (commit `a7b7e47`, 2026-10-18) | root (`armors/`, `maps/`, `ui/`, …) |
+| 3 | Ellym57f – *MHP3rd HD Definitive Edition* (commit `8e334a7`, 2023-01-11) | `definitive/` |
+| 4 | StormieVN – *MHP3rd HD Remake* (commit `ca52133`, 2021-11-12, full-res version) | `stormie/` |
+| 5 | Ngeradak Gaming – MHP3rd HD texture packs (YouTube, 2020-09 → 2021-06) | `ngeradak/` |
 
 - Within the Ngeradak packs, the newest pack wins when two packs conflict.
 - MHGU reuses many P3rd low-rank hunter and Felyne armor textures. The `mhgu/` textures were matched
   by content to the P3rd originals (dumped from the game) for pieces no other source covers. They keep
   the colors of the HD Pixel Pack and the transparency of the P3rd original. Where MHGU leaves a part
   grey (tinted at runtime in MHGU), the colors of the P3rd original were put back.
+- Where the master also has a texture, the MHGU one replaces it (`# [mhgu] overrides master`).
 - A master entry whose file is missing upstream is filled by a lower source when one has it. These
   lines carry the comment `# [<source>] file missing upstream`.
 - Entries are rewritten with comments when the master has the file under its hash name instead of
