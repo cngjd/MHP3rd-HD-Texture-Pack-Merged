@@ -24,7 +24,7 @@ order, and for each texture hash (clut + data, with
 | Priority | Source | Folder in this pack |
 |---|---|---|
 | 1 | Pixel Cover – *MHGU HD Pixel Pack 4.0* (Monster Hunter Generations Ultimate, 2025-05) | `mhgu/` |
-| 2 | HolographicWings – *Monster Hunter Portable 3rd HD Pack Enhanced* (commit `ddc12dd`, 2026-10-19) | root (`armors/`, `maps/`, `ui/`, …) |
+| 2 | HolographicWings – *Monster Hunter Portable 3rd HD Pack Enhanced* (commit `fb76faf`, v1.2.0, 2026-10-22) | root (`equipment/`, `characters/`, `maps/`, `ui/`, …) |
 | 3 | Ellym57f – *MHP3rd HD Definitive Edition* (commit `8e334a7`, 2023-01-11) | `definitive/` |
 | 4 | StormieVN – *MHP3rd HD Remake* (commit `ca52133`, 2021-11-12, full-res version) | `stormie/` |
 | 5 | Ngeradak Gaming – MHP3rd HD texture packs (YouTube, 2020-09 → 2021-06) | `ngeradak/` |
@@ -65,7 +65,7 @@ order, and for each texture hash (clut + data, with
   Stormie's fork of the David-vz project (MHW icons, upscaled armor sets and weapons, fixes).
   Its optional variants (Xbox layout, MHW sharpness bar…) are not included.
 - **Ngeradak Gaming** ([YouTube channel](https://www.youtube.com/channel/UCjyhPL4rLDJYJG-o5lZfVKw)): HD
-  weapon and armor textures, including most female armor sets. The packs used are:
+  weapon and armor textures, including many female armor sets. The packs used are:
   - All Weapon (GS, LS, SnS, DB, SA, H, HH, L, GL, LBG, HBG, B)
   - Armor & Weapon 1, 2 and (F) 1–3, Weapon 1
   - Armor 1 and 2
