@@ -30,8 +30,8 @@ order, and for each texture hash (clut + data, with
 | 5 | Ngeradak Gaming – MHP3rd HD texture packs (YouTube, 2020-09 → 2021-06) | `ngeradak/` |
 
 - Within the Ngeradak packs, the newest pack wins when two packs conflict.
-- MHGU reuses many P3rd low-rank hunter and Felyne armor textures. The `mhgu/` textures were matched
-  by content to the P3rd originals (dumped from the game) for pieces no other source covers. They keep
+- MHGU reuses many P3rd low-rank hunter armor, hunter weapon and Felyne textures. The `mhgu/`
+  textures were matched by content to the P3rd originals (dumped from the game). They keep
   the colors of the HD Pixel Pack and the transparency of the P3rd original. Where MHGU leaves a part
   grey (tinted at runtime in MHGU), the colors of the P3rd original were put back.
 - Where the master also has a texture, the MHGU one replaces it (`# [mhgu] overrides master`).
@@ -73,7 +73,7 @@ order, and for each texture hash (clut + data, with
   - the Jaggi and Aelucanth side packs, and the Monsters pack
 - **Pixel Cover** ([YouTube](https://www.youtube.com/channel/UCmVt_09lfzye3AjKd9E6pUg),
   [HD Pixel Pack v4 video](https://www.youtube.com/watch?v=iacY54dZF8k)): *MHGU HD Pixel Pack 4.0* for
-  Monster Hunter Generations Ultimate. 59 HD low-rank textures come from it: 34 hunter armor pieces
-  (mostly female sets) and 25 Felyne armor and weapon pieces.
+  Monster Hunter Generations Ultimate. 76 HD low-rank textures come from it: 35 hunter armor pieces
+  (mostly female sets), 15 hunter weapons and 26 Felyne armor and weapon pieces.
 
 If you are one of the authors and want your work credited differently or removed, please open an issue.
