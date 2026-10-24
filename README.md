@@ -24,7 +24,7 @@ order, and for each texture hash (clut + data, with
 | Priority | Source | Folder in this pack |
 |---|---|---|
 | 1 | Pixel Cover – *MHGU HD Pixel Pack 4.0* (Monster Hunter Generations Ultimate, 2025-05) | `mhgu/` |
-| 2 | HolographicWings – *Monster Hunter Portable 3rd HD Pack Enhanced* (commit `fb76faf`, v1.2.0, 2026-10-22) | root (`equipment/`, `characters/`, `maps/`, `ui/`, …) |
+| 2 | HolographicWings – *Monster Hunter Portable 3rd HD Pack Enhanced* (commit `9e509a1`, v1.2.0+, 2026-10-24) | root (`equipment/`, `characters/`, `maps/`, `ui/`, …) |
 | 3 | Ellym57f – *MHP3rd HD Definitive Edition* (commit `8e334a7`, 2023-01-11) | `definitive/` |
 | 4 | StormieVN – *MHP3rd HD Remake* (commit `ca52133`, 2021-11-12, full-res version) | `stormie/` |
 | 5 | Ngeradak Gaming – MHP3rd HD texture packs (YouTube, 2020-09 → 2021-06) | `ngeradak/` |

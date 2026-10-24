@@ -40,6 +40,11 @@ ignoreAddress = true
 
 0000000022a27b4bbe1b6a19 = ui/misc/1.png
 00000000853bb0dda4c6462e = ui/misc/2.png
+00000000d1c33c91f9ccb530 = ui/misc/questpanelavailable.png
+0000000081ed2804f9ccb530 = ui/misc/questpanelunavailable.png
+000000006a9474a1f9ccb530 = ui/misc/questpanelurgent.png
+0000000030c80c06f9ccb530 = ui/misc/questpanelevent.png
+000000008d33cbbbf9ccb530 = ui/misc/questbath.png
 
 #HD Ver
 00000000a4fa6a7700000000 = ui/hdver/capcom_1.png
@@ -54,6 +59,7 @@ ignoreAddress = true
 000000007b666fde00000000 = ui/hdver/dolbi_5.png
 00000000a919a1aa00000000 = ui/hdver/dolbi_6.png
 00000000c27933d400000000 = ui/hdver/dolbi_7.png
+0000000010043b0be8af3144 = ui/hdver/dolbi_7.png
 00000000ed872564b3c9a13c = ui/hdver/title_1.png
 000000006cf4272fd309a1f1 = ui/hdver/title_2.png
 00000000cbf32ebc85ace191 = ui/hdver/title_3.png
@@ -65,6 +71,7 @@ ignoreAddress = true
 00000000072d02f264c12da8 = ui/hdver/title_9.png
 0000000071a47e3fc036235b = ui/hdver/title_10.png
 00000000d504165f3aea9809 = ui/hdver/title_11.png
+000000002e96afef2fc7dc4c = ui/hdver/title_11.png
 00000000a09e41b7e51435d0 = ui/hdver/title_12.png
 000000008fa47d70afda2ad7 = ui/hdver/title_13.png
 00000000525d65d78f2f6c26 = ui/hdver/title_14.png
@@ -613,7 +620,7 @@ ignoreAddress = true
 00000000cd3dd2421e3b954f = equipment/armors/m/nibelsnarf/head2.png
 00000000d983a9238e7f9c89 = equipment/armors/m/nibelsnarf/gloves1.png
 00000000ff39c2a1067b96a2 = equipment/armors/m/nibelsnarf/legs2.png
-000000002c57969052afbeaf = equipment/armors/m/nibelsnarf/boots1.png
+000000000000000052afbeaf = equipment/armors/m/nibelsnarf/boots1.png
 0000000004dde1a26bafae0a = equipment/armors/m/nibelsnarf/head1.png
 000000009c8d1691a0eec811 = equipment/armors/m/nibelsnarf/chest2.png
 00000000c05196bc3787b4ca = equipment/armors/m/nibelsnarf/gloves2.png
@@ -1988,9 +1995,11 @@ ignoreAddress = true
 000000003023cbc4501a030d = equipment/weapons/p/bulldrome.png
 00000000deaaaacb6437f344 = equipment/weapons/p/jaggi1.png
 00000000c8ce3d1abfe86b5d = equipment/weapons/p/arzuros.png
+00000000c80545a83718f622 = equipment/weapons/p/bnahabra.png
 000000001e3d708664f38760 = equipment/weapons/p/rhenoplos.png
 00000000f846d11c793829dc = equipment/weapons/p/slagtoth.png
 000000000da298df034e83dd = equipment/weapons/p/steel.png
+0000000027949ddc58e54140 = equipment/weapons/p/steellight.png
 000000004d4ea9d6bbda7e19 = equipment/weapons/p/acorn.png
 000000009fa36c804e5d11b2 = equipment/weapons/p/qurupeco.png
 000000000e19cc3ab115e5d2 = equipment/weapons/p/ludroth.png
@@ -1998,15 +2007,20 @@ ignoreAddress = true
 000000005a493b81aa3f09e2 = equipment/weapons/p/lagombi.png
 0000000037494061c0df28b1 = equipment/weapons/p/barroth.png
 0000000042e1e83dc4f47ade = equipment/weapons/p/alloy.png
+00000000bfb0d0f870ac74e8 = equipment/weapons/p/baggi.png
 0000000078fbee87b460f8af = equipment/weapons/p/volvidon.png
 00000000103af05207421dd2 = equipment/weapons/p/rathian.png
+0000000000000000dd5d4891 = equipment/weapons/p/gigginox.png
+00000000528e2c7d006cab5f = equipment/weapons/p/nibelsnarf.png
 00000000c71d086062333867 = equipment/weapons/p/halloween.png
 00000000d455c405dba91418 = equipment/weapons/p/insect.png
 000000005e698e8435b2b699 = equipment/weapons/p/jaggi2.png
 00000000e4a5e0eb7448f475 = equipment/weapons/p/wood.png
-00000000f9ba5af54cbfd42f = equipment/weapons/p/barioth.png
+00000000000000004cbfd42f = equipment/weapons/p/barioth.png
 00000000d2cd8d41c68a88f2 = equipment/weapons/p/nargacuga.png
 000000002d9c13eb99f58dac = equipment/weapons/p/uragaan.png
+000000000014e74e18c34514 = equipment/weapons/p/rathalos.png
+000000001f2836c2e1d618ee = equipment/weapons/p/zinogre.png
 00000000a385d71e273a09ec = equipment/weapons/p/gargwa.png
 00000000a20acfaedc214a23 = equipment/weapons/p/guild.png
 00000000119061c0bb72104d = equipment/weapons/p/agnaktor.png
@@ -2014,7 +2028,7 @@ ignoreAddress = true
 00000000f35f83b2ac1ecf51 = equipment/weapons/p/duramboros.png
 00000000203d1617606a1f68 = equipment/weapons/p/jhenmohran.png
 00000000c3480f28399b70ca = equipment/weapons/p/deviljho.png
-
+0000000042a7f128296f4d09 = 0000000042a7f128296f4d09.png
 #body:
 00000000a80b666be1f1ba6e = characters/skin/m/1.png
 00000000c0107cde83e7ed0e = characters/skin/m/2.png
@@ -2048,6 +2062,7 @@ ignoreAddress = true
 000000000a7aa9e24f6a929e = characters/skin/p/001.png
 00000000bd807cc9645f87a3 = characters/skin/p/002.png
 0000000089183ddd4bf521ea = characters/skin/p/003.png
+0000000046f08474551744e5 = characters/skin/p/004.png
 
 00000000e0045a5fd17aaefb = characters/hairs/m/1.png
 00000000ee5684ae6757171d = characters/hairs/m/1.png
@@ -2158,6 +2173,8 @@ ignoreAddress = true
 00000000d7c425374b2807a5 = monsters/small/uroktor_01.png
 0000000075bb6927c862e062 = monsters/small/uroktor_01.png
 
+00000000c4c1e7ab555849bf = monsters/small/uroktor_02.png
+
 00000000c6dbdeb618143939 = monsters/small/delex_01.png
 00000000b6aaf63590ead442 = monsters/small/delex_01.png
 
@@ -2186,6 +2203,8 @@ ignoreAddress = true
 #arzuros 
 000000004e5c64ac47e2288d = monsters/large/arzuros_01.png
 000000000660dc0be80e1b4d = monsters/large/arzuros_01.png
+
+0000000079e56acbe5a724fc = monsters/large/arzuros_02.png
 
 #uragaan
 00000000d70f6753e525223f = monsters/large/uragaan_01.png
@@ -2218,6 +2237,9 @@ ignoreAddress = true
 0000000035e977263b2e8c73 = monsters/large/barroth_01.png
 0000000050fc4fa918a70727 = monsters/large/barroth_02.png
 00000000a5149fb525fbc54f = monsters/large/barroth_03.png
+
+000000009be5b7a3d16ba485 = monsters/large/barroth_04.png
+0000000084248cd5e3bbc4c7 = monsters/large/barroth_05.png
 
 #jade barroth
 00000000d8c4d5704a9743d7 = monsters/large/g_barroth_01.png
@@ -2291,11 +2313,15 @@ ignoreAddress = true
 00000000f307d14d00000000 = monsters/small/ludroth_01.png
 00000000ff2803937d228599 = monsters/small/ludroth_01.png
 
+0000000056ab2823796e6bb2 = monsters/small/ludroth_02.png
+
 #royal ludroth
 00000000e755996700000000 = monsters/large/royal_ludroth_01.png
 00000000565c4a3300000000 = monsters/large/royal_ludroth_02.png
 00000000cfad1e79444c8daa = monsters/large/royal_ludroth_01.png
 00000000a33dff4ab6055f9a = monsters/large/royal_ludroth_02.png
+
+000000005f804a1d7f3977f0 = monsters/large/royal_ludroth_03.png
 
 #purple royal ludroth
 000000001e127cea1efdc461 = monsters/large/purple_ludroth_01.png
@@ -2316,6 +2342,8 @@ ignoreAddress = true
 00000000f6c511bf6d4da60c = monsters/large/qurupeco_02.png
 000000000b98df3439a1a714 = monsters/large/qurupeco_01.png
 0000000003ba79c0b90caf04 = monsters/large/qurupeco_02.png
+
+00000000dc99cb36af700786 = monsters/large/qurupeco_03.png
 
 #crimson qurupeco
 00000000fd16c11cb182ed85 = monsters/large/c_qurupeco_01.png
@@ -2464,6 +2492,8 @@ ignoreAddress = true
 00000000000008095fa64d1c = monsters/large/gigginox_03.png
 00000000000007087eef6ad9 = monsters/large/gigginox_03.png
 
+00000000ed86c467b846cf5e = monsters/large/gigginox_04.png
+
 0000000003b30d5e6e8c5a9c = monsters/small/giggisac_01.png
 00000000f34c60949c594337 = monsters/small/giggisac_01.png
 00000000a3dc45a52edfd5d7 = monsters/small/giggi_01.png
@@ -2571,6 +2601,7 @@ ignoreAddress = true
 00000000797bdf8bc5ad2a9f = npcs/00000000ce235225d891d364.png
 
 00000000678c66f3d28ea2a0 = npcs/00000000678c66f3d28ea2a0.png
+00000000bd84b58958d84cf9 = npcs/00000000bd84b58958d84cf9.png
 
 # Misc
 ## Moons
@@ -2605,6 +2636,9 @@ ignoreAddress = true
 
 000000008448dca0010a2260 = misc/000000008448dca0010a2260.png
 00000000dd79a379f2394889 = misc/00000000dd79a379f2394889.png
+0000000001611e670b5b4fa1 = misc/0000000001611e670b5b4fa1.png
+0000000087924d6c44145f9b = misc/characterburning.png
+00000000a2150db53d0740be = misc/00000000a2150db53d0740be.png #generated with a paintball
 
 # locations
 
@@ -2843,7 +2877,6 @@ ignoreAddress = true
 000000003c8cd3f547195d6f = maps/village/130.png
 00000000d7c56ef55b3e19d8 = maps/village/131.png
 00000000315055250bd59f97 = maps/village/132.png
-000000009f57eddb7c35c2d1 = maps/village/132.png
 0000000029b86ea48bc8dcfb = maps/village/133.png
 000000007a701a7366fbdcd0 = maps/village/133.png
 00000000008f46e7807e96ba = maps/village/134.png
@@ -2883,6 +2916,9 @@ ignoreAddress = true
 00000000b4858b061591b6d8 = maps/village/00000000b4858b061591b6d8.png
 000000002d52f1d2a69d4ed3 = maps/village/000000002d52f1d2a69d4ed3.png
 00000000390187b09e3f484f = maps/village/00000000390187b09e3f484f.png
+0000000042a7f128296f4d09 = maps/village/0000000042a7f128296f4d09.png
+0000000099eb582ed17780d4 = maps/village/0000000099eb582ed17780d4.png
+00000000979cbc82940e204c = maps/village/00000000979cbc82940e204c.png
 
 00000000a1be4b7e4a4a64f8 = maps/village/farm/5.png
 00000000342bdecbf7d054f6 = maps/village/farm/5.png
@@ -3029,6 +3065,7 @@ ignoreAddress = true
 00000000669620e5648d7cbf = maps/guildhall/66.png
 0000000073b1887a79b87942 = maps/guildhall/66.png
 000000008307065d8f5e49ef = maps/guildhall/67.png
+000000009f57eddb7c35c2d1 = maps/guildhall/67.png
 00000000d7c9d2f41a7ba2be = maps/guildhall/00000000d7c9d2f41a7ba2be.png
 
 0000000015f0a316c72e9350 = maps/guildhall/baths/3.png
@@ -3134,6 +3171,7 @@ ignoreAddress = true
 000000007a9d8ed6d468528b = maps/bosque/0/000000007a9d8ed6d468528b.png
 00000000e43681b44d42e33c = maps/bosque/0/00000000e43681b44d42e33c.png
 0000000012b7160241e6a88a = maps/bosque/0/0000000012b7160241e6a88a.png
+000000008a29cf573e053cee = maps/bosque/0/000000008a29cf573e053cee.png
 
 
 
@@ -3299,6 +3337,7 @@ ignoreAddress = true
 00000000d152b082b97d1270 = maps/bosque/3/00000000d152b082b97d1270.png
 0000000031081a5ea385c800 = maps/bosque/3/0000000031081a5ea385c800.png
 0000000036d235028d8a816c = maps/bosque/3/0000000036d235028d8a816c.png
+000000004f065d5ddd1a9f2b = maps/bosque/3/000000004f065d5ddd1a9f2b.png
 
 # 4
 00000000833bf5ca47cd6392 = maps/bosque/4/1.png
@@ -3885,6 +3924,7 @@ ignoreAddress = true
 000000008714d4abcdc600f8 = maps/desert/1/69.png
 00000000000000001de0a96c = maps/desert/1/70.png
 0000000060466b1f21980cc0 = maps/desert/1/0000000060466b1f21980cc0.png
+00000000f25c2f1ca7b94007 = maps/desert/1/00000000f25c2f1ca7b94007.png
 
 0000000064e20fa7eeb8c4b1 = maps/desert/2/1.png
 00000000e7c82f6f82007bd8 = maps/desert/2/2.png
@@ -4092,6 +4132,7 @@ ignoreAddress = true
 000000007ddce1042d4eb61b = maps/desert/3/000000007ddce1042d4eb61b.png
 00000000d5513fea1a4fe0ba = maps/desert/3/00000000d5513fea1a4fe0ba.png
 00000000fe5f9cd5d8032ed4 = maps/desert/3/00000000fe5f9cd5d8032ed4.png
+00000000ee9dbc7ed740b8c9 = maps/desert/3/00000000ee9dbc7ed740b8c9.png
 
 00000000923ddf7d81903dec = maps/desert/4/1.png
 000000009234e895a702ea7e = maps/desert/4/1.png
@@ -6530,6 +6571,7 @@ ignoreAddress = true
 0000000057ad9316a556e0b1 = maps/island/4/38.png
 00000000b00c2cca70735769 = maps/island/4/38.png
 000000003617c12714b8f43a = maps/island/4/39.png
+000000006056af3b5c273b9e = maps/island/4/000000006056af3b5c273b9e.png
 
 00000000a408ad3e0b9f8008 = maps/island/5/1.png
 00000000553b017afeffaafd = maps/island/5/1.png
@@ -6575,6 +6617,7 @@ ignoreAddress = true
 00000000f5c265f077102acf = maps/island/5/00000000f5c265f077102acf.png
 0000000091afbc8632e77e2a = maps/island/5/0000000091afbc8632e77e2a.png
 00000000b97dd9471e0f0b75 = maps/island/5/00000000b97dd9471e0f0b75.png
+00000000a184b9c7ec76f6db = maps/island/5/00000000a184b9c7ec76f6db.png
 
 00000000acf0b8c95185446a = maps/island/6/1.png
 00000000e1b7e3705846a101 = maps/island/6/2.png
@@ -6652,6 +6695,7 @@ ignoreAddress = true
 00000000e834c5d513d33674 = maps/island/7/27-2.png
 000000007477d26f7e2872a7 = maps/island/7/28.png
 00000000d72f84dc32e61126 = maps/island/7/00000000d72f84dc32e61126.png
+0000000010b57be2b50eba9b = maps/island/7/0000000010b57be2b50eba9b.png
 
 0000000099e9cbbd4f9e6005 = maps/island/8/1.png
 00000000c57f83b3d34941db = maps/island/8/1.png
@@ -6735,6 +6779,10 @@ ignoreAddress = true
 0000000004f2bda0b5f100b8 = maps/island/8/0000000004f2bda0b5f100b8.png
 00000000d3995e7575b58539 = maps/island/8/00000000d3995e7575b58539.png
 0000000027eb49c530b0bf0b = maps/island/8/0000000027eb49c530b0bf0b.png
+00000000b3db4e288c0e4b79 = maps/island/8/00000000b3db4e288c0e4b79.png
+000000001c31174318500e41 = maps/island/8/000000001c31174318500e41.png
+00000000521671be6bacfdc4 = maps/island/8/00000000521671be6bacfdc4.png
+00000000a1e3786caf9af7e6 = maps/island/8/00000000a1e3786caf9af7e6.png
 
 00000000a36351067f700ecc = maps/island/9/1.png
 000000003ce9b8ba69c99842 = maps/island/9/2.png
@@ -6795,6 +6843,7 @@ ignoreAddress = true
 00000000ac8d9dec77ac1db5 = maps/island/9/00000000ac8d9dec77ac1db5.png
 000000008a64205fa92ecd06 = maps/island/9/000000008a64205fa92ecd06.png
 00000000c3eda16850feba31 = maps/island/9/00000000c3eda16850feba31.png
+000000003cac34f29cca29bf = maps/island/9/000000003cac34f29cca29bf.png
 
 00000000d44870b311363b77 = maps/island/10/1.png
 00000000a0bd2fda135386a5 = maps/island/10/2.png
@@ -6970,6 +7019,7 @@ ignoreAddress = true
 000000000bce52ab0e00f666 = maps/volcano/0/000000000bce52ab0e00f666.png
 00000000ccd3e560f8ffdbdc = maps/volcano/0/00000000ccd3e560f8ffdbdc.png
 000000001b399b612d224ccb = maps/volcano/0/000000001b399b612d224ccb.png
+000000000ecb4dcc09931581 = maps/volcano/0/000000000ecb4dcc09931581.png
 
 00000000565ecdc98622afbc = maps/volcano/1/1.png
 000000003b5185f739e26815 = maps/volcano/1/2.png
@@ -7034,7 +7084,6 @@ ignoreAddress = true
 0000000096ce16a0418dc364 = maps/volcano/1/36.png
 00000000cfd7aaf66bf4f681 = maps/volcano/1/37.png
 0000000050e79f435901a39d = maps/volcano/1/0000000050e79f435901a39d.png
-000000000ecb4dcc09931581 = maps/volcano/1/000000000ecb4dcc09931581.png
 
 00000000097d0c7e00a8770b = maps/volcano/2/1.png
 00000000281c178481259a71 = maps/volcano/2/2.png
